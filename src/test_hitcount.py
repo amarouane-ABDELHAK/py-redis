@@ -17,7 +17,7 @@ class HitCountTest(unittest.TestCase):
         hitcount.hit("user1")
         hitcount.hit("user1")
         hitcount.hit("user1")
-        self.assertEqual(b'3', hitcount.gethit("user1"))
+        self.assertEqual(b'32', hitcount.gethit("user1"))
 
 
 if __name__=='__main__':
